@@ -106,104 +106,41 @@ export default function Portfolio() {
       </section>
 
       <section className="max-w-4xl mx-auto px-4 py-10">
-  <h2 className="text-3xl font-semibold mb-10 text-yellow-400 text-center">Featured Projects 🚀</h2>
-  <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2">
-    <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
-      className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-yellow-500/30 transition-all duration-300 hover:-translate-y-1"
-    >
-      <h3 className="text-xl font-bold text-white mb-2">Sewamo</h3>
-      <p className="text-sm text-gray-300 mb-4">A household service booking platform connecting users with local trusted providers.</p>
-      <div className="flex flex-wrap gap-2 text-xs text-yellow-300">
-        <span className="bg-gray-800 px-2 py-1 rounded">Ruby on Rails</span>
-        <span className="bg-gray-700 px-2 py-1 rounded">PostgreSQL</span>
-        <span className="bg-gray-700 px-2 py-1 rounded">Redis</span>
-      </div>
-    </motion.div>
+        <h2 className="text-3xl font-semibold mb-10 text-yellow-400 text-center">Featured Projects 🚀</h2>
+        <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-yellow-500/30 transition-all duration-300 hover:-translate-y-1"
+          >
+            <h3 className="text-xl font-bold text-white mb-2">Sewamo</h3>
+            <p className="text-sm text-gray-300 mb-4">A household service booking platform connecting users with local trusted providers.</p>
+            <div className="flex flex-wrap gap-2 text-xs text-yellow-300">
+              <span className="bg-gray-800 px-2 py-1 rounded">Ruby on Rails</span>
+              <span className="bg-gray-700 px-2 py-1 rounded">PostgreSQL</span>
+              <span className="bg-gray-700 px-2 py-1 rounded">Redis</span>
+            </div>
+          </motion.div>
 
-    <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6, delay: 0.2 }}
-      className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-pink-500/30 transition-all duration-300 hover:-translate-y-1"
-    >
-      <h3 className="text-xl font-bold text-white mb-2">Puravankara</h3>
-      <p className="text-sm text-gray-300 mb-4">Real estate discovery & admin platform to manage projects, users, and property listings.</p>
-      <div className="flex flex-wrap gap-2 text-xs text-pink-300">
-        <span className="bg-gray-700 px-2 py-1 rounded">Rails</span>
-        <span className="bg-gray-700 px-2 py-1 rounded">Active Admin</span>
-        <span className="bg-gray-700 px-2 py-1 rounded">Sidekiq</span>
-      </div>
-    </motion.div>
-  </div>
-</section>
-
-      {/* ✅ Projects */}
-      <section className="max-w-4xl mx-auto px-4 py-10">
-        <h2 className="text-3xl font-semibold mb-6 text-purple-400">Work Experience 💼</h2>
-        <div className="space-y-6">
-          <div className="bg-transparent p-6 rounded-xl shadow hover:shadow-purple-400/30 transition">
-            <h3 className="text-xl font-bold text-white">Globant, Pune</h3>
-            <p className="text-sm text-gray-400 mb-2">Jr Adv Ruby on Rails Developer | Aug 2024 - June 2025</p>
-            <ul className="list-disc list-inside text-gray-300">
-              <li>Developed end-to-end features in a Ruby on Rails microservices architecture</li>
-              <li>Integrated Sidekiq and Redis for background processing</li>
-              <li>Collaborated with React developers to design scalable APIs</li>
-              <li>Used Docker for dev and staging environments</li>
-            </ul>
-          </div>
-          <div className="bg-gray-800 p-6 rounded-xl shadow hover:shadow-purple-400/30 transition">
-            <h3 className="text-xl font-bold text-white">Bestpeers, Indore</h3>
-            <p className="text-sm text-gray-400 mb-2">Jr Ruby on Rails Developer | Sept 2021 - Aug 2024</p>
-            <ul className="list-disc list-inside text-gray-300">
-              <li>Built RESTful APIs with authentication and service design patterns</li>
-              <li>Wrote RSpec tests and optimized ActiveRecord queries</li>
-              <li>Debugged and maintained backend systems using Rails console and byebug</li>
-            </ul>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-pink-500/30 transition-all duration-300 hover:-translate-y-1"
+          >
+            <h3 className="text-xl font-bold text-white mb-2">Puravankara</h3>
+            <p className="text-sm text-gray-300 mb-4">Real estate discovery & admin platform to manage projects, users, and property listings.</p>
+            <div className="flex flex-wrap gap-2 text-xs text-pink-300">
+              <span className="bg-gray-700 px-2 py-1 rounded">Rails</span>
+              <span className="bg-gray-700 px-2 py-1 rounded">Active Admin</span>
+              <span className="bg-gray-700 px-2 py-1 rounded">Sidekiq</span>
+            </div>
+          </motion.div>
         </div>
       </section>
-
-      <section className="max-w-4xl mx-auto px-4 py-10">
-  <h2 className="text-3xl font-semibold mb-10 text-yellow-400 text-center">Featured Projects 🚀</h2>
-  <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2">
-    <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
-      className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-yellow-500/30 transition-all duration-300 hover:-translate-y-1"
-    >
-      <h3 className="text-xl font-bold text-white mb-2">Sewamo</h3>
-      <p className="text-sm text-gray-300 mb-4">A household service booking platform connecting users with local trusted providers.</p>
-      <div className="flex flex-wrap gap-2 text-xs text-yellow-300">
-        <span className="bg-gray-800 px-2 py-1 rounded">Ruby on Rails</span>
-        <span className="bg-gray-700 px-2 py-1 rounded">PostgreSQL</span>
-        <span className="bg-gray-700 px-2 py-1 rounded">Redis</span>
-      </div>
-    </motion.div>
-
-    <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6, delay: 0.2 }}
-      className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-pink-500/30 transition-all duration-300 hover:-translate-y-1"
-    >
-      <h3 className="text-xl font-bold text-white mb-2">Puravankara</h3>
-      <p className="text-sm text-gray-300 mb-4">Real estate discovery & admin platform to manage projects, users, and property listings.</p>
-      <div className="flex flex-wrap gap-2 text-xs text-pink-300">
-        <span className="bg-gray-700 px-2 py-1 rounded">Rails</span>
-        <span className="bg-gray-700 px-2 py-1 rounded">Active Admin</span>
-        <span className="bg-gray-700 px-2 py-1 rounded">Sidekiq</span>
-      </div>
-    </motion.div>
-  </div>
-</section>
 
       {/* ✅ Certifications */}
       <section className="max-w-3xl mx-auto px-4 py-10">
